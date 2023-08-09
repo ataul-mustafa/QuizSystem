@@ -1,0 +1,81 @@
+.back{
+    margin: 5px 5px;
+}
+
+.dashBoard{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.userInfo{
+    height: fit-content;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.userInfo > h2{
+    width: 100%;
+    display: flex;
+}
+
+.userInfo > h2> p {
+    width: 30%;
+    text-transform: uppercase;
+}
+
+.optionsContainer{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    margin-top: 2vmax;
+    justify-content: space-around;
+    padding: 10px 10px 0 10px;
+    background-color: rgba(9, 9, 141, 0.411);
+    border-radius: 10px 10px 0 0;
+}
+
+.optionsContainer > a, button {
+    width: 45%;
+    color: #fff;
+    background-color: black;
+    border: 2px solid rgb(204, 204, 18);
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.5vmax;
+    border-radius: 18px 0 18px 0;
+    margin-bottom: 1vmax;
+    transition: 0.3s ease-in-out;
+    padding: 10px 5px;
+}
+
+.optionsContainer > a:hover, button:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.nameHeading {
+    color: #fff;
+    font-size: 2vmax;
+    margin: 5vmax 0 5vmax 5vmax;
+}
+
+.messg{
+    color: #fff;
+    font-size: 1vmax;
+}

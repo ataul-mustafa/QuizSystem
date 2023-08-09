@@ -1,0 +1,74 @@
+
+.mainContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.back{
+    color: #fff;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 5px;
+    left: 2em;
+    overflow-y: scroll;
+    padding-top: 3vmax;
+}
+.container > h1 {
+    width: 60%;
+    border: 5px solid rgb(204, 204, 18);
+    padding: 2vmax 5vmax;
+    color: #fff;
+    /* margin-bottom: 3vmax; */
+    text-align: center;
+    font-size: 3vmax;
+    font-weight: 700;
+    border-radius: 5vmax;
+}
+
+.container ol li{
+    font-size: 1.4em;
+    color: #cecece;
+}
+
+.start{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.start .btn{
+    padding: .2em 1.7em;
+    border: none;
+    border-radius: .1em;
+    font-size: 1.2em;
+    color: #202020;
+    text-decoration: none;
+    background-color: rgb(204, 204, 18);
+    margin-top: 4vmax;
+}
+
+#form{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 4em;
+}
+
+#form .userid{
+    padding: .7em 2em;
+    width: 50%;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    font-size: 1em;
+    color: #fff;
+}

@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.username {
+    color: #fff;
+    font-size: 3vmax;
+    width: fit-content;
+    text-align: center;
+    border: 5px solid rgb(204, 204, 18);
+    padding: 1vmax 5vmax;
+    background-color: rgba(60, 28, 243, 0.1);
+    margin-left: 20%;
+    border-radius: 0 4vmax 0 4vmax;
+    position: relative;
+    top: 3vmax;
+}
+
+.HomeContainer {
+    width: 80vw;
+    color: #fff;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 3vmax 0;
+}
+
+.contentBox {
+    margin: 4vmax 0 0 2vmax;
+}
+
+.contentBox>h1 {
+    color: rgb(204, 204, 18);
+    font-size: 5vmax;
+    font-weight: 500;
+}
+
+.contentBox>h1::after {
+    content: '';
+    display: block;
+    width: 20%;
+    /* height: 100%; */
+    margin-left: 40%;
+    margin-top: 1vmax;
+    border-bottom: 4px solid rgb(255, 255, 255);
+}
+
+.authEle {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin: 5vmax 0 0 30%;
+}
+
+.login {
+    margin-left: 40%;
+}
+
+.authEle > a {
+    width: 40%;
+    text-decoration: none;
+    color: blue;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(204, 204, 18);
+    text-align: center;
+    font-size: 1.5vmax;
+    font-weight: 600;
+    transition: 0.3s ease-in;
+}
+
+.authEle > a:hover{
+    background-color: rgb(204, 204, 18);
+}
